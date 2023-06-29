@@ -9,4 +9,4 @@ app.use(cors());
 app.use(json());
 
 app.use('/api/v1/courses', CourseHttpController);
-app.listen(8080, ()=> console.log("Server has been started at 8080"));
+app.listen(8080, ()=> console.log("Server has been started at 8080..."));
